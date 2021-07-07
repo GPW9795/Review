@@ -27,6 +27,9 @@ public class BubbleSort {
         }
     }
 
+    /**
+     * 优化
+     */
     public static void sortOptimization(int[] arr) {
         if (arr == null || arr.length == 0) return;
         for (int i = arr.length - 1; i > 0; i--) {
