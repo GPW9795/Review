@@ -5,7 +5,7 @@ public class HeapSort {
 
     }
 
-    public int[] sort(int[] arr) {
-        return new int[0];
+    public static void sort(int[] arr) {
+
     }
 }
