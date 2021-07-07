@@ -3,11 +3,13 @@ package sort;
 import java.util.Arrays;
 
 /**
- * 冒泡排序
+ * 冒泡排序（稳定）
+ * 时间复杂度：最差O(n^2)，平均O(n^2)，最好O(n)
+ * 空间复杂度：O(1)
  */
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {4, 7, 9, 1, 3, 5, 78};
+        int[] arr = {12, 34, 13, 5, 0, 9, 7, 1, 4, 57, 4};
         sortOptimization(arr);
         System.out.println(Arrays.toString(arr));
     }
