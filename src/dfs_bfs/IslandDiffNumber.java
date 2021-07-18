@@ -6,7 +6,7 @@ import java.util.HashSet;
  * 不同岛屿的数量
  * https://leetcode-cn.com/problems/number-of-distinct-islands/
  */
-public class islandDiffNumber {
+public class IslandDiffNumber {
     private int row, col;
 
     public int numDistinctIslands(int[][] grid) {

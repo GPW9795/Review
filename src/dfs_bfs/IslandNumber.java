@@ -4,7 +4,7 @@ package dfs_bfs;
  * 岛屿数量
  * https://leetcode-cn.com/problems/number-of-islands/
  */
-public class islandNumber {
+public class IslandNumber {
     private int row;
     private int col;
 

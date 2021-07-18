@@ -4,7 +4,7 @@ package dfs_bfs;
  * 岛屿周长
  * https://leetcode-cn.com/problems/island-perimeter/
  */
-public class islandLength {
+public class IslandLength {
     private int row, col;
 
     public int islandPerimeter(int[][] grid) {

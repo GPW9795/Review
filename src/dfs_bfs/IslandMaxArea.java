@@ -4,7 +4,7 @@ package dfs_bfs;
  * 岛屿最大面积
  * https://leetcode-cn.com/problems/max-area-of-island/
  */
-public class islandMaxArea {
+public class IslandMaxArea {
     private int row, col;
 
     public int maxAreaOfIsland(int[][] grid) {
